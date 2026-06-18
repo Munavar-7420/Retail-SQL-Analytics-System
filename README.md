@@ -153,7 +153,6 @@ Business Insights
 
 ---
 
-
 ## 📁 Repository Structure
 
 ```text
@@ -165,16 +164,10 @@ Retail-SQL-Analytics-System/
 ├── SQL/
 │   └── retail_sales_analysis.sql
 │
-├── Images/
-│   ├── dashboard-1.png
-│   ├── dashboard-2.png
-│   ├── insights.png
-│   └── data-model.png
-│
 ├── README.md
 ├── LICENSE
 └── .gitignore
-```
+````
 
 ---
 
