@@ -167,10 +167,10 @@ Retail-SQL-Analytics-System/
 │   └── Insights_Summary.pdf
 │
 ├── Images/
-│   ├── top-customers.png
-│   ├── monthly-sales.png
-│   ├── revenue-region.png
-│   └── best-products.png
+│   ├── E-Commerce Dashboard.png
+│   ├── Sales Dashboard.png
+│   ├── Insights.png
+│   └── Data Model.png
 │
 ├── LICENSE
 ├── README.md
@@ -196,6 +196,5 @@ Retail-SQL-Analytics-System/
 Aspiring Data Analyst
 
 SQL • MySQL • PostgreSQL • Excel • Power BI • Python
-
 
 ````
