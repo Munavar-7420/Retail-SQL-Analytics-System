@@ -162,18 +162,18 @@ Retail-SQL-Analytics-System/
 │   ├── best_selling_products.sql
 │   └── revenue_by_region.sql
 │
+├── Images/
+│   ├── dashboard-1.png
+│   ├── dashboard-2.png
+│   ├── insights.png
+│   └── data-model.png
+│
 ├── Reports/
 │   ├── SQL_Query_Report.pdf
 │   └── Insights_Summary.pdf
 │
-├── Images/
-│   ├── E-Commerce Dashboard.png
-│   ├── Sales Dashboard.png
-│   ├── Insights.png
-│   └── Data Model.png
-│
-├── LICENSE
 ├── README.md
+├── LICENSE
 └── .gitignore
 ```
 
