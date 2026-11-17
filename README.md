@@ -2,7 +2,7 @@
 
 # 📊 Retail SQL Analytics System
 
-### Transforming Retail Sales Data into Actionable Business Insights Using SQL
+### Transactional retail sales analysis using MySQL to uncover revenue trends, top customers, and regional performance.
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -59,77 +59,41 @@ The analysis was conducted using MySQL and focuses on generating actionable busi
 
 ## 📂 Dataset
 
-**Dataset:** Retail Sales Dataset
-
-### Features
-
-- Order Information
-- Product Details
-- Customer Information
-- Geographic Information
-- Revenue Data
-- Deal Size Information
+**Dataset:** Retail Sales Dataset (`Retail_Sales_data.csv`)
 
 ### Key Columns
-
-- ORDERNUMBER
-- SALES
-- PRODUCTLINE
-- PRODUCTCODE
-- CUSTOMERNAME
-- COUNTRY
-- TERRITORY
-- DEALSIZE
-- ORDERDATE
+- `ORDERNUMBER` | `ORDERDATE` | `SALES` | `DEALSIZE`
+- `PRODUCTLINE` | `PRODUCTCODE`
+- `CUSTOMERNAME` | `COUNTRY` | `TERRITORY`
 
 ---
 
 ## 🔄 Project Workflow
 
 ```text
-sales_data.csv
+Retail_Sales_data.csv
      │
      ▼
 Import into MySQL
      │
      ▼
-Data Validation
+Data Validation & Cleaning
      │
      ▼
-SQL Query Development
+SQL Query Development (Aggregations, CTEs, Window Functions)
      │
      ▼
-Sales Analysis
-     │
-     ▼
-Business Insights
+Sales & Customer Insights
 ```
 
 ---
 
 ## 📈 Key Analysis Performed
 
-### Customer Analysis
-
-- Top 10 Customers by Revenue
-- Highest Quantity Purchasers
-
-### Product Analysis
-
-- Best-Selling Product Lines
-- Top Revenue Generating Products
-
-### Sales Analysis
-
-- Monthly Sales Trend
-- Quarterly Revenue Analysis
-- Average Order Value
-
-### Regional Analysis
-
-- Revenue by Country
-- Revenue by Territory
-- Top Performing Cities
+- **Customer Analysis:** Ranked Top 10 customers by total revenue and highest order volume.
+- **Product Performance:** Evaluated revenue share and order frequency across product lines (Classic Cars, Vintage Cars, Motorcycles, etc.).
+- **Time-Series Trends:** Tracked monthly and quarterly revenue growth along with Average Order Value (AOV).
+- **Regional Breakdown:** Compared sales performance across EMEA, NA, APAC, and Japan territories.
 
 ---
 
@@ -159,33 +123,28 @@ Business Insights
 Retail-SQL-Analytics-System/
 │
 ├── Data/
-│   └── sales_data.csv
+│   └── Retail_Sales_data.csv
 │
 ├── SQL/
 │   └── retail_sales_analysis.sql
 │
-├── README.md
+├── Pics/
 ├── LICENSE
-└── .gitignore
-````
+└── README.md
+```
 
 ---
 
 ## 🚀 Future Improvements
 
-- Customer Segmentation
-- Sales Forecasting
-- Advanced SQL Window Functions
-- Interactive Power BI Dashboard
-- Automated Reporting
+- RFM (Recency, Frequency, Monetary) Customer Segmentation in SQL
+- Interactive Power BI Dashboard connected directly to MySQL
+- Automated Monthly Revenue Reporting Views
 
 ---
+
 ## 👨‍💻 Author
 
-**Munavar Patter**
-
-Aspiring Data Analyst
-
-SQL • MySQL • PostgreSQL • Excel • Power BI • Python
-
-````
+**Munavar Patter**  
+M.Sc. Student at SRH University | Former Data Analyst  
+SQL • MySQL • Python • Power BI • Excel
